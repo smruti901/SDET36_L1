@@ -20,20 +20,26 @@ public class Practise
 	public void test2()
 	{
 		System.out.println("Test2 Passed");
-		System.out.println("Test2 Passed Safely");
-		System.out.println("Test Passed Safely");
+		System.out.println("Test2 Passed");
+		System.out.println("Test2 Passed");
+		
 		
 	}
 	@Test
 	public void test3()
 	{
 		System.out.println("Test3 Passed");
+
 		
 		System.out.println("Test3 Passed");
 		
 		System.out.println("Test3 Passed");
 		
 		System.out.println("Test3 Passed");
+
+		System.out.println("Test30 Passed");
+		System.out.println("Test3 Passed");
+		
 	}
 	@Test
 	public void test4()
