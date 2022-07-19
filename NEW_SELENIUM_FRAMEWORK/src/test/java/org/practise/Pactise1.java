@@ -24,7 +24,7 @@ public class Pactise1
 	@Test
 	public void test8()
 	{
-		System.out.println("Test8 Passed");
+		System.out.println("I Love You");
 	}
 
 }
