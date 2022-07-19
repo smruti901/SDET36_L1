@@ -24,6 +24,7 @@ public class Practise
 	{
 		System.out.println("Test2 Passed");
 		System.out.println("Test2 Passed Safely");
+		System.out.println("Test Passed Safely");
 		
 	}
 	@Test
