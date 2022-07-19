@@ -7,7 +7,7 @@ public class Practise
 	@Test
 	public void test1()
 	{
-		System.out.println("Test1 Passed");
+		System.out.println("Test1 Passed Safely");
 		String browser = System.getProperty("BROWSER");
 		String url = System.getProperty("URL");
 		String username = System.getProperty("USERNAME");
