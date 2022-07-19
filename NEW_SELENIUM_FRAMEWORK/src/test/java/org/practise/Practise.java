@@ -14,10 +14,7 @@ public class Practise
 		String username = System.getProperty("USERNAME");
 		String password = System.getProperty("PASSWORD");
 		
-		System.out.println("browser--------->"+browser);
-		System.out.println("url--------->"+url);
-		System.out.println("username--------->"+username);
-		System.out.println("password--------->"+password);
+		
 	}
 	@Test
 	public void test2()
