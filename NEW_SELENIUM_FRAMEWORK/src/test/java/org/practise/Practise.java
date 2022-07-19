@@ -31,6 +31,12 @@ public class Practise
 	public void test3()
 	{
 		System.out.println("Test3 Passed");
+		
+		System.out.println("Test3 Passed");
+		
+		System.out.println("Test3 Passed");
+		
+		System.out.println("Test3 Passed");
 	}
 	@Test
 	public void test4()
