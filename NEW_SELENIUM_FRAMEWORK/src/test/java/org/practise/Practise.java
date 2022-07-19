@@ -14,10 +14,7 @@ public class Practise
 		String username = System.getProperty("USERNAME");
 		String password = System.getProperty("PASSWORD");
 		
-		System.out.println("browser--------->"+browser);
-		System.out.println("url--------->"+url);
-		System.out.println("username--------->"+username);
-		System.out.println("password--------->"+password);
+		
 	}
 	@Test
 	public void test2()
@@ -32,6 +29,14 @@ public class Practise
 	public void test3()
 	{
 		System.out.println("Test3 Passed");
+
+		
+		System.out.println("Test3 Passed");
+		
+		System.out.println("Test3 Passed");
+		
+		System.out.println("Test3 Passed");
+
 		System.out.println("Test30 Passed");
 		System.out.println("Test3 Passed");
 		
