@@ -23,6 +23,8 @@ public class Practise
 	public void test2()
 	{
 		System.out.println("Test2 Passed");
+		System.out.println("Test2 Passed");
+		System.out.println("Test2 Passed");
 		
 		
 	}
