@@ -8,6 +8,7 @@ public class Practise
 	public void test1()
 	{
 		System.out.println("Test1 Passed Safely");
+		System.out.println("new Test1 Passed Safely");
 		String browser = System.getProperty("BROWSER");
 		String url = System.getProperty("URL");
 		String username = System.getProperty("USERNAME");
@@ -22,6 +23,7 @@ public class Practise
 	public void test2()
 	{
 		System.out.println("Test2 Passed");
+		System.out.println("Test2 Passed Safely");
 		
 	}
 	@Test
