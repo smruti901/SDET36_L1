@@ -18,6 +18,34 @@ pipeline {
 
            
         }
+         stage('Install') {
+            steps {
+                // Get some code from a GitHub repository
+                git 'https://github.com/smruti901/SDET36_L1.git'
+
+                // Run Maven on a Unix agent.
+                //sh "mvn -Dmaven.test.failure.ignore=true clean package"
+
+                // To run Maven on a Windows agent, use
+                bat "mvn test -f NEW_SELENIUM_FRAMEWORK/pom.xml"
+            }
+
+           
+        }
+         stage('Test') {
+            steps {
+                // Get some code from a GitHub repository
+                git 'https://github.com/smruti901/SDET36_L1.git'
+
+                // Run Maven on a Unix agent.
+                //sh "mvn -Dmaven.test.failure.ignore=true clean package"
+
+                // To run Maven on a Windows agent, use
+                bat "mvn test -f NEW_SELENIUM_FRAMEWORK/pom.xml"
+            }
+
+           
+        }
     }
 }
 
